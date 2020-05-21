@@ -3,7 +3,8 @@
 [![Docs](https://img.shields.io/badge/docs-%F0%9F%93%84-blue)](https://aster879.com/docs/aster_eng_00001.pdf)
 [![Docs](https://img.shields.io/badge/docs-%F0%9F%93%84-blue)](https://aster879.com/)
 
-** AsterCoin is deployed to ropsten test network. [Check via Etherscan](https://ropsten.etherscan.io/token/0x618C15C714866A18Afab235b9d2B65971e438711)
+** AsterCoin is deployed to ropsten test network. [Check via Etherscan](https://ropsten.etherscan.io/token/0x618C15C714866A18Afab235b9d2B65971e438711) 
+[Also, you can check AsterCoin on Mainnet via Etherscan.](https://etherscan.io/token/0x0eb3032bcAc2BE1fa95E296442F225edb80fc3CD) 
 
  * Implementations of standards like [ERC20](https://docs.openzeppelin.com/contracts/erc20) with openzeppelin
 
