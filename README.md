@@ -3,10 +3,9 @@
 [![Docs](https://img.shields.io/badge/docs-%F0%9F%93%84-blue)](https://aster879.com/docs/aster_eng_00001.pdf)
 [![Docs](https://img.shields.io/badge/docs-%F0%9F%93%84-blue)](https://aster879.com/)
 
-** AsterCoin is deployed to ropsten test network. [Check via Etherscan](https://ropsten.etherscan.io/token/0x618C15C714866A18Afab235b9d2B65971e438711) 
-[Also, you can check AsterCoin on Mainnet via Etherscan.](https://etherscan.io/token/0x0eb3032bcAc2BE1fa95E296442F225edb80fc3CD) 
+** AsterCoin is deployed to [Ropsten test network](https://ropsten.etherscan.io/token/0x618C15C714866A18Afab235b9d2B65971e438711). [You can also check AsterCoin on Mainet via Etherscan](https://etherscan.io/token/0x0eb3032bcAc2BE1fa95E296442F225edb80fc3CD). 
 
- * Implementations of standards like [ERC20](https://docs.openzeppelin.com/contracts/erc20) with openzeppelin
+ * Implementations of [ERC20](https://docs.openzeppelin.com/contracts/erc20) with openzeppelin.
 
 ## Overview
 
@@ -16,11 +15,12 @@
 $ git clone https://github.com/Tenspace/ATC_20200518.git
 ```
 
-AsterCoin is implemented with OpenZeppelin Contracts features a [stable API](https://docs.openzeppelin.com/contracts/releases-stability#api-stability), which means Aster Coin contracts won't break unexpectedly when upgrading to a newer minor version.
+AsterCoin in implemented with OpenZeppelin Contracts that features a [stable API](https://docs.openzeppelin.com/contracts/releases-stability#api-stability), which means that AsterCoin contracts will not break unexpectedly when upgrading to a newer version.
+
 
 ### Usage
 
-Once cloned, you need install some packages below:
+Once cloned, you will need to install some packages below:
 
 ```console
 $ sudo apt-get update
@@ -31,7 +31,7 @@ $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bas
 $ sudo reboot
 ```
 
-Please, wait few mininues, If turn on the run commands below:
+Please wait a few minutes for it to turn on and run the commands below.
 
 ```console
 $ nvm install v10.15.3
@@ -75,14 +75,13 @@ $ truffle init
 $ npm init -y
 $ npm i --save openzeppelin-solidity
 ```
-
-After truffle init, There is created 'contract' directory, copy Migrations.sol, TokenLock.sol and AsterCoin.sol files into 'contract' directory.
+After truffle init, ‘contract’ directory will have been created. Copy Migrations.sol, TokenLock.sol and AsterCoin.sol files into the ‘contract’ directory.
 
 Setting truffle-config.js
 
-And deploy contract to network you want .
+And deploy the contract to the network you want.
 
-Every solidity contract set 'pragma solidity ^0.5.0' at first line. AsterCoin is implemented with solidity 0.5.0 like:
+All solidity contract sets ‘pragma solidity ^0.5.0’ on their first line. AsterCoin is implemented with solidity 0.5.0 like below:
 ```solidity
 pragma solidity ^0.5.0;
 ```
