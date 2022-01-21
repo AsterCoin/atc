@@ -12,7 +12,7 @@
 ### Installation
 
 ```console
-$ git clone https://github.com/Tenspace/ATC_20200518.git
+$ git clone https://github.com/metaREXadmin/atc.git
 ```
 
 AsterCoin in implemented with OpenZeppelin Contracts that features a [stable API](https://docs.openzeppelin.com/contracts/releases-stability#api-stability), which means that AsterCoin contracts will not break unexpectedly when upgrading to a newer version.
